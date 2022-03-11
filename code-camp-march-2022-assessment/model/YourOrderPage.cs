@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
 namespace code_camp_march_2022_assessment.model
 {
-    public class YourOrderPage : Base
+    public class YourOrderPage : BaseModel
     {
         public YourOrderPage(IWebDriver driver) : base(driver)
         {

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using code_camp_march_2022_assessment.model;
+﻿using code_camp_march_2022_assessment.model;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace code_camp_march_2022_assessment
