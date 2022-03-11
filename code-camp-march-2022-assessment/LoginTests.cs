@@ -14,7 +14,7 @@ namespace code_camp_march_2022_assessment
             homePage.ClickLoginOrSignupButton();
 
             PizzaHqMembersLogin pizzaHqMembersLogin = new PizzaHqMembersLogin(driver);
-            Thread.Sleep(1000);
+            Thread.Sleep(1000); // No Wait.Until ? Running out of time?
             pizzaHqMembersLogin.SetUsername("john.smith@email.com");
             pizzaHqMembersLogin.SetPassword("12345");
             pizzaHqMembersLogin.ClickLoginButton();

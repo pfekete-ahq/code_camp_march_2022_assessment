@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
 namespace code_camp_march_2022_assessment.model
 {
-    public class MenuPage : Base
+    public class MenuPage : BaseModel
     {
         public MenuPage(IWebDriver driver) : base(driver)
         {
